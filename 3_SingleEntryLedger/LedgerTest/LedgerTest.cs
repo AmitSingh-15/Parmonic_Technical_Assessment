@@ -13,7 +13,7 @@ namespace SingleEntryLedger.Test
         public void Update_Ledger_Balance()
         {
 
-            ILedgerManger _LedgerManger = new LedgerEntry();
+            ILedgerManger _LedgerManger = new LedgerManger();
 
             // Act
             // (int accountId, DateTime tranDate, TranType type, string description, string notes, decimal amount)

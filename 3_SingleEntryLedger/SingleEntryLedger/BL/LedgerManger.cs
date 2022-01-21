@@ -5,7 +5,7 @@ using SingleEntryLedger.Model;
 
 namespace SingleEntryLedger.BL
 {
-   public class LedgerEntry : ILedgerManger
+   public class LedgerManger : ILedgerManger
     {
         private readonly List<LedgerEntryItem> items = new List<LedgerEntryItem>();
 
